@@ -124,7 +124,7 @@ async def bot_start(call: types.CallbackQuery):
     await State.set(Registr.regstr1)
 
 
-@dp.message_handler(Command(['start', '121312315564','fsfsfasdfsdfsd']), state=Registr)
+@dp.message_handler(Command(['start', '12131231556vfdsdsdvsdvdsvdsvdsvdvsdvdvsdvsdvsdvsdv']), state=Registr)
 async def bot_start(message: types.Message):
     await message.answer("Xato ma'lumot kiritildi")
 
